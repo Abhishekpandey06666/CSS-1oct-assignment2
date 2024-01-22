@@ -1,0 +1,37 @@
+Justify-content==>
+                  The CSS justify-content property defines how the browser distributes space between and
+ around content items along the main-axis of a flex container, and the inline axis of a grid container.
+The interactive example below demonstrates some of the values using Grid Layout.
+
+Align-items==>
+             The align item  property cantroll the alignment of flex item along  the cross axis of the flex
+ container. It specify how to items are positioned within there container along this axis .
+  it accepts value such as flex-start,flax-end,center,baseline,and stretch.
+     if you set align items:center; flex item will vwrtically center.
+
+Gap==>
+      If you are trying to create gaps or spacing between flex items within a flex container,
+      you can use the gap property or the margin property. 
+ example
+         .container {
+                    display: flex;
+                    gap: 10px; 
+                    }
+flex-direction==>
+                In CSS, the flex-direction property is used to define the direction of the main axis in a flex
+  container.The main axis is the primary axis along which flex items are laid out. 
+    example 
+           .container {
+                      display: flex;
+                      flex-direction: row;
+                      }
+Flex wrap==>
+           The flex-wrap property in CSS is used to control whether flex items are forced onto a single line or can
+ wrap onto multiple lines within a flex container.
+ example
+        .container {
+                   display: flex;
+                   flex-wrap: nowrap;
+                   }
+
+
